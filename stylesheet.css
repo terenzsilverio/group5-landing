@@ -6,6 +6,7 @@
 /**LANDING PAGE**/
 body {
 	background: black;
+	overflow-x: hidden;
 }
 
 body, html{
@@ -170,6 +171,11 @@ body, html{
 	padding: 20px;
 }
 
+#main-link-head img {
+	padding-left: 20px;
+	transform: scale(1.2);
+}
+
 #main-link-head {
 	background-color: rgba(110, 110, 110, .5);
 	height: 28em;
@@ -206,6 +212,149 @@ body, html{
 	margin: 2em 36.5em;
 	transform: rotate(180deg);
 
+}
+
+#main-link-2 {
+	width: 72.8em;
+	margin: 1em auto;
+}
+
+#main-link-2 td {
+	width: 18.75em;
+	padding: 20px;
+	background-color: rgba(110, 110, 110, .5);
+	height: 5em;
+	border-radius: 10px;
+}
+
+#main-link-2 a:link {
+	text-decoration: none;
+	color: white;
+}
+
+#main-link-2 a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.head-ml2 {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 2.5em;
+}
+
+#card1 {
+	background: url("IMAGES/tbr-card.png");
+	background-size: cover;
+}
+
+#card2 {
+	background: url("IMAGES/weekly-card.png");
+	background-size: cover;
+}
+
+#card3 {
+	background: url("IMAGES/atb-card.png");
+	background-size: cover;
+}
+
+#card4 {
+	background: url("IMAGES/must-card.png");
+	background-size: cover;
+}
+
+#test1 {
+	width: 75em;
+	margin: 0 auto;
+	position: relative;
+	z-index: -1;
+	border-radius: 10px;
+	transform: rotate(180deg);
+}
+
+/**categories**/
+#dikonakaya {
+	transform: scale(.60);
+	margin: -16em 0 0 -23em;
+	position: absolute;
+	z-index: -1;
+	border-radius: 10px;
+}
+
+#categ-planet {
+	position: fixed;
+	z-index: -1;
+	margin: -22em 0 0 60em; 
+	animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.categ-header {
+	width: 75em;
+	margin: auto auto;
+}
+
+.header-fic {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 4em;
+}
+
+.categ-header-table {
+	margin: auto auto;
+}
+
+.categ-header-table td {
+	width: 20em;
+	padding: 2px;
+}
+
+.categ-header-table tr td {
+	border-radius: 10px;
+	background: url("IMAGES/con2-bg.png");
+}
+
+.title-basta {
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	font-size: 1.125em;
+	text-decoration: none;
+	margin: 1em 6em;
+	width: 100%;
+}
+
+.pic-spec {
+	border-radius: 10px;
+	margin: 0 0 0 3em;
+	width: 13em;
+	height: 18em;
+}
+
+.categ-header a .pic-spec {
+	transition: all .3s linear;
+}
+
+.categ-header a .pic-spec:hover {
+	transform: scale(1.02);
+	box-shadow: 10px 5px 20px grey;
+}
+
+.categ-header-table a .title-basta:link {
+	text-decoration: none;
+	color: white;
+}
+
+.categ-header-table a .title-basta:visited {
+	text-decoration: none;
+	color: white;
 }
 
 /**CONTACT US**/
